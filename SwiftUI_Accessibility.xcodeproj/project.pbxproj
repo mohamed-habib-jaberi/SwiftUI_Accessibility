@@ -16,6 +16,7 @@
 		613DBF44247841440069869A /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DBF43247841440069869A /* Alarm.swift */; };
 		613DBF482478435C0069869A /* AlarmResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DBF472478435C0069869A /* AlarmResetView.swift */; };
 		613DBF4A2478531A0069869A /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DBF492478531A0069869A /* Date+Extensions.swift */; };
+		613DBF4C247853600069869A /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DBF4B247853600069869A /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		613DBF43247841440069869A /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
 		613DBF472478435C0069869A /* AlarmResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmResetView.swift; sourceTree = "<group>"; };
 		613DBF492478531A0069869A /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		613DBF4B247853600069869A /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				613DBF472478435C0069869A /* AlarmResetView.swift */,
 				613DBF492478531A0069869A /* Date+Extensions.swift */,
+				613DBF4B247853600069869A /* Color+Extensions.swift */,
 				613DBF43247841440069869A /* Alarm.swift */,
 				613DBF2E2477F8190069869A /* SwiftUI_Accessibility */,
 				613DBF2D2477F8190069869A /* Products */,
@@ -159,6 +162,7 @@
 				613DBF482478435C0069869A /* AlarmResetView.swift in Sources */,
 				613DBF322477F8190069869A /* SceneDelegate.swift in Sources */,
 				613DBF342477F8190069869A /* ContentView.swift in Sources */,
+				613DBF4C247853600069869A /* Color+Extensions.swift in Sources */,
 				613DBF44247841440069869A /* Alarm.swift in Sources */,
 				613DBF4A2478531A0069869A /* Date+Extensions.swift in Sources */,
 			);
