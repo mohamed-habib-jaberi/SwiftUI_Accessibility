@@ -13,6 +13,8 @@
 		613DBF362477F81B0069869A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 613DBF352477F81B0069869A /* Assets.xcassets */; };
 		613DBF392477F81B0069869A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 613DBF382477F81B0069869A /* Preview Assets.xcassets */; };
 		613DBF3C2477F81B0069869A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613DBF3A2477F81B0069869A /* LaunchScreen.storyboard */; };
+		613DBF44247841440069869A /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DBF43247841440069869A /* Alarm.swift */; };
+		613DBF482478435C0069869A /* AlarmResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DBF472478435C0069869A /* AlarmResetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		613DBF382477F81B0069869A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		613DBF3B2477F81B0069869A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		613DBF3D2477F81B0069869A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		613DBF43247841440069869A /* Alarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		613DBF472478435C0069869A /* AlarmResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmResetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		613DBF232477F8180069869A = {
 			isa = PBXGroup;
 			children = (
+				613DBF472478435C0069869A /* AlarmResetView.swift */,
+				613DBF43247841440069869A /* Alarm.swift */,
 				613DBF2E2477F8190069869A /* SwiftUI_Accessibility */,
 				613DBF2D2477F8190069869A /* Products */,
 			);
@@ -147,8 +153,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				613DBF302477F8190069869A /* AppDelegate.swift in Sources */,
+				613DBF482478435C0069869A /* AlarmResetView.swift in Sources */,
 				613DBF322477F8190069869A /* SceneDelegate.swift in Sources */,
 				613DBF342477F8190069869A /* ContentView.swift in Sources */,
+				613DBF44247841440069869A /* Alarm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
