@@ -17,6 +17,9 @@
 		613DBF482478435C0069869A /* AlarmResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DBF472478435C0069869A /* AlarmResetView.swift */; };
 		613DBF4A2478531A0069869A /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DBF492478531A0069869A /* Date+Extensions.swift */; };
 		613DBF4C247853600069869A /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DBF4B247853600069869A /* Color+Extensions.swift */; };
+		613DBF4E247925860069869A /* AlarmList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DBF4D247925860069869A /* AlarmList.swift */; };
+		613DBF52247936CD0069869A /* AlarmRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DBF51247936CD0069869A /* AlarmRow.swift */; };
+		613DBF54247955EC0069869A /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DBF53247955EC0069869A /* AlarmView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		613DBF472478435C0069869A /* AlarmResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmResetView.swift; sourceTree = "<group>"; };
 		613DBF492478531A0069869A /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		613DBF4B247853600069869A /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		613DBF4D247925860069869A /* AlarmList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmList.swift; sourceTree = "<group>"; };
+		613DBF51247936CD0069869A /* AlarmRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmRow.swift; sourceTree = "<group>"; };
+		613DBF53247955EC0069869A /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,10 +54,6 @@
 		613DBF232477F8180069869A = {
 			isa = PBXGroup;
 			children = (
-				613DBF472478435C0069869A /* AlarmResetView.swift */,
-				613DBF492478531A0069869A /* Date+Extensions.swift */,
-				613DBF4B247853600069869A /* Color+Extensions.swift */,
-				613DBF43247841440069869A /* Alarm.swift */,
 				613DBF2E2477F8190069869A /* SwiftUI_Accessibility */,
 				613DBF2D2477F8190069869A /* Products */,
 			);
@@ -68,6 +70,13 @@
 		613DBF2E2477F8190069869A /* SwiftUI_Accessibility */ = {
 			isa = PBXGroup;
 			children = (
+				613DBF4B247853600069869A /* Color+Extensions.swift */,
+				613DBF492478531A0069869A /* Date+Extensions.swift */,
+				613DBF43247841440069869A /* Alarm.swift */,
+				613DBF472478435C0069869A /* AlarmResetView.swift */,
+				613DBF51247936CD0069869A /* AlarmRow.swift */,
+				613DBF4D247925860069869A /* AlarmList.swift */,
+				613DBF53247955EC0069869A /* AlarmView.swift */,
 				613DBF2F2477F8190069869A /* AppDelegate.swift */,
 				613DBF312477F8190069869A /* SceneDelegate.swift */,
 				613DBF332477F8190069869A /* ContentView.swift */,
@@ -158,9 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				613DBF52247936CD0069869A /* AlarmRow.swift in Sources */,
 				613DBF302477F8190069869A /* AppDelegate.swift in Sources */,
+				613DBF54247955EC0069869A /* AlarmView.swift in Sources */,
 				613DBF482478435C0069869A /* AlarmResetView.swift in Sources */,
 				613DBF322477F8190069869A /* SceneDelegate.swift in Sources */,
+				613DBF4E247925860069869A /* AlarmList.swift in Sources */,
 				613DBF342477F8190069869A /* ContentView.swift in Sources */,
 				613DBF4C247853600069869A /* Color+Extensions.swift in Sources */,
 				613DBF44247841440069869A /* Alarm.swift in Sources */,
