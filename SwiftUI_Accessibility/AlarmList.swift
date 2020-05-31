@@ -24,7 +24,7 @@ struct AlarmList: View {
                         NavigationLink(destination: AlarmView(alarm: alarm)) {
                             AlarmRow(alarm: alarm)
                         }
-                        
+                    .accessibility(value: Text("Edit Alarm"))
                     }
                 }
             }

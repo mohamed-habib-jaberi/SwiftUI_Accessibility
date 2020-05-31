@@ -15,7 +15,7 @@ struct AlarmRow: View {
     var body: some View {
         HStack {
             
-            Image("Clock")
+            Image(decorative: "Clock")
                 .resizable()
                 .frame(width: 40, height: 40)
                 .opacity(alarm.isActive ? 1 : 0.2)
@@ -28,6 +28,8 @@ struct AlarmRow: View {
                     .fontWeight(.bold)
                     .font(Font.system(.body))
                     .minimumScaleFactor(0.5)
+                .lineLimit(nil)
+                    .accessibility(value: Text("start: \(alarm.startTime), end: \(alarm.endTime)"))
             }
             .opacity(alarm.isActive ? 1 : 0.2)
             

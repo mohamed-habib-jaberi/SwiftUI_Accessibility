@@ -17,9 +17,10 @@ struct AlarmOverviewView: View {
         NavigationView{
             VStack{
                 AlarmResetView(alarmList: $alarmList)
+                    .accessibility(addTraits: .isHeader)
                 
                 AlarmList(alarmList: $alarmList)
-                
+                    .accessibility(addTraits: .isHeader)
                 .navigationBarTitle("CatNap Alarms")
                 .navigationBarItems(trailing:
                     Button(action: {
@@ -28,6 +29,7 @@ struct AlarmOverviewView: View {
                          self.alarmList.append(newAlarm)
                     }, label: {
                            Image(systemName: "plus.circle")
+                        .accessibility(value: Text("Add new alarm"))
                     })
                 ).sheet(isPresented: $showNewAlarm) {
                     AlarmView(alarm: self.alarmList.last!)

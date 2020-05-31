@@ -14,10 +14,11 @@ struct AlarmResetView: View {
     
     var body: some View {
         VStack {
-            Image("Clock")
+            Image("Clock", label: Text("Clock Reset"))
                 .resizable()
                 .frame(width: 200, height: 200)
-                .gesture(LongPressGesture().onEnded({ (value) in
+                .gesture(LongPressGesture()
+                    .onEnded({ (value) in
                     self.disableAlarme()
                 }))
             
@@ -25,6 +26,9 @@ struct AlarmResetView: View {
                 .font(Font.system(.headline, design: .rounded))
                 .minimumScaleFactor(0.85)
                 .foregroundColor(Color.red)
+        }
+        .accessibilityAction(named: Text("Disable All Alarm")) {
+            self.disableAlarme()
         }
     }
     
