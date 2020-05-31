@@ -10,7 +10,7 @@ import SwiftUI
 
 struct AlarmResetView: View {
     
-   var alarmList: [Alarm]
+  @Binding var alarmList: [Alarm]
     
     var body: some View {
         VStack {
@@ -35,7 +35,9 @@ struct AlarmResetView: View {
 
 struct AlarmResetView_Previews: PreviewProvider {
     static var previews: some View {
-    
-        AlarmResetView(alarmList: [Alarm(name: "Test", startTime: Date(timeIntervalSinceNow: -200), endTime: Date())])
+        //without @Binding
+        //  AlarmResetView(alarmList: [Alarm(name: "Test", startTime: Date(timeIntervalSinceNow: -200), endTime: Date())])
+        //Add @Binding
+        AlarmResetView(alarmList: .constant([Alarm(name: "Test", startTime: Date(timeIntervalSinceNow: -200), endTime: Date())]))
     }
 }

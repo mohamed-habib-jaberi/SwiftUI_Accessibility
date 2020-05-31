@@ -20,6 +20,7 @@
 		613DBF4E247925860069869A /* AlarmList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DBF4D247925860069869A /* AlarmList.swift */; };
 		613DBF52247936CD0069869A /* AlarmRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DBF51247936CD0069869A /* AlarmRow.swift */; };
 		613DBF54247955EC0069869A /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613DBF53247955EC0069869A /* AlarmView.swift */; };
+		614AE3702483BD6A0065F226 /* AlarmOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614AE36F2483BD6A0065F226 /* AlarmOverviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		613DBF4D247925860069869A /* AlarmList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmList.swift; sourceTree = "<group>"; };
 		613DBF51247936CD0069869A /* AlarmRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmRow.swift; sourceTree = "<group>"; };
 		613DBF53247955EC0069869A /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		614AE36F2483BD6A0065F226 /* AlarmOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmOverviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				613DBF51247936CD0069869A /* AlarmRow.swift */,
 				613DBF4D247925860069869A /* AlarmList.swift */,
 				613DBF53247955EC0069869A /* AlarmView.swift */,
+				614AE36F2483BD6A0065F226 /* AlarmOverviewView.swift */,
 				613DBF2F2477F8190069869A /* AppDelegate.swift */,
 				613DBF312477F8190069869A /* SceneDelegate.swift */,
 				613DBF332477F8190069869A /* ContentView.swift */,
@@ -177,6 +180,7 @@
 				613DBF4C247853600069869A /* Color+Extensions.swift in Sources */,
 				613DBF44247841440069869A /* Alarm.swift in Sources */,
 				613DBF4A2478531A0069869A /* Date+Extensions.swift in Sources */,
+				614AE3702483BD6A0065F226 /* AlarmOverviewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
